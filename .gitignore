@@ -1,0 +1,34 @@
+# Build output
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+
+# Rider IDE
+.idea/
+*.sln.iml
+*.DotSettings.user
+*.DotSettings
+*.sln
+*.suo
+*.user
+
+# System files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs
+*.log
+*.tmp
+*.cache
+*.trx
+
+# XAML files (если не хотите их в репозитории)
+# *.xaml
+
+# Project files (если не хотите)
+# *.csproj

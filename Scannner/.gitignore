@@ -1,0 +1,51 @@
+﻿# Rider IDE
+.idea/
+*.sln.iml
+*.DotSettings.user
+*.DotSettings
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+*.trace
+*.tmp
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Package references
+packages/
+*.nupkg
+
+# Xcode
+*.xcuserstate
+
+# Visual Studio
+.vs/
+*.swp
+*.swo
+*~
