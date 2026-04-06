@@ -55,7 +55,16 @@ public class DirectoryScannerTests : IDisposable
         
         Assert.Equal(2000, result.Size);
     }
+    [Fact]
+    public void Scan_With100Workers_DoesNotCrash()
+    {
+        CreateTestStructure();
+        var scanner = new DirectoryScanner(maxWorkers: 100);
     
+        var result = scanner.Scan(_testRoot, CancellationToken.None);
+    
+        Assert.Equal(2000, result.Size);
+    }
     [Theory]
     [InlineData(1)]
     [InlineData(2)]

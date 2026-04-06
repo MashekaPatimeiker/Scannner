@@ -16,7 +16,7 @@ public class MainViewModel : INotifyPropertyChanged
     private readonly DirectoryScanner _scanner;
     private CancellationTokenSource? _cts;
     private string _selectedPath = string.Empty;
-    private string _statusText = "Готов к работе";
+    private string _statusText = "Good boy";
     private bool _isScanning;
     private readonly Dictionary<string, NodeViewModel> _nodeMap = new();
 
